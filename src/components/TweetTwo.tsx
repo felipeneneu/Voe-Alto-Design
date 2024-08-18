@@ -1,9 +1,9 @@
 import { ArrowClockwise, ChatCircle, Heart } from '@phosphor-icons/react'
-import './Tweet.css'
-import imagem1 from '../assets/01.png'
+import './TweetTwo.css'
+import imagem2 from '../assets/Post-do-Site-2.png'
 
 
-export function Tweet() {
+export function TweetTwo() {
   return (
     <a href='#' className='tweet'>
       <img src="https://openseauserdata.com/files/4c7b1857e28506d0097052584355f4f3.png" alt="" />
@@ -34,7 +34,7 @@ export function Tweet() {
         <li>Entrega rápida e suporte dedicado durante todo o processo.</li>
         <li>Materiais que se destacam e ajudam a conquistar votos.</li>
         <br />
-        <img className='post' src={imagem1} alt="" />
+        <img className='post' src={imagem2} alt="" />
 
         <div className='tweet-content-footer'>
           <button type='button'>

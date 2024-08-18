@@ -5,6 +5,7 @@ import './global.css';
 import { Tweet } from './components/Tweet';
 import { Sidebar } from './components/Sidebar';
 import { Header } from './components/Header';
+import { TweetTwo } from './components/TweetTwo';
 
 
 
@@ -32,9 +33,8 @@ createRoot(document.getElementById('root')!).render(
           <div className="separation" />
 
           <Tweet />
-          <Tweet />
-          <Tweet />
-          <Tweet />
+          <TweetTwo />
+
         </main>
 
 
