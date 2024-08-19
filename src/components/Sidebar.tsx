@@ -9,12 +9,12 @@ export function Sidebar() {
 
       <nav className='main-navagation'>
 
-        <a className='active' href=''>
+        <a className='active' href='/'>
           <House weight='fill' />
           Home
         </a>
 
-        <a href=''>
+        <a href='/contato'>
           <Hash />
           Explore
         </a>
