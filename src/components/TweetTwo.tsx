@@ -13,26 +13,12 @@ export function TweetTwo() {
           <strong>Felipe Neneu</strong>
           <span>@Cto</span>
         </div>
-        <h2 className='typing-animation'>Potencialize Sua Campanha</h2>
-        <h3>com Materiais Políticos Digitais!</h3>
+        <h2 >Posts e Motions para Engajar Eleitores!</h2>
         <br />
 
-        <p>Em uma campanha política, a presença digital é fundamental para engajar e convencer eleitores.
-          Oferecemos serviços especializados em criação de <strong>motion graphics</strong> e <strong>posts para redes sociais</strong>,
-          todos projetados para fortalecer a imagem do seu candidato e comunicar suas propostas de forma eficaz.</p>
+        <p>💡 Transforme sua campanha com design profissional! Posts e motions que engajam e fortalecem sua mensagem. Entre em contato e destaque-se!</p>
 
-        <br />
-        <h3>Motion Graphics</h3>
-        <p>Animações dinâmicas e impactantes que dão vida às ideias da campanha, perfeitas para destacar nas redes sociais e atrair a atenção dos eleitores.</p>
-        <br />
-        <h3>Posts Personalizados</h3>
 
-        <p>Criação de artes visuais para posts em redes sociais, alinhadas à identidade visual da campanha, destacando propostas, eventos e mensagens importantes.</p>
-        <br />
-        <strong>💡 Por que Escolher Nossos Serviços?</strong>
-        <li>Design focado em resultados, alinhado com os objetivos da sua campanha.</li>
-        <li>Entrega rápida e suporte dedicado durante todo o processo.</li>
-        <li>Materiais que se destacam e ajudam a conquistar votos.</li>
         <br />
         <img className='post' src={imagem2} alt="" />
 
