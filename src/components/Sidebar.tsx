@@ -1,6 +1,9 @@
-import { Bell, BookBookmark, DotsThreeCircle, Envelope, FileText, Hash, House, User } from '@phosphor-icons/react';
+import { BehanceLogo, DotsThreeCircle, Envelope, Hash, House, User } from '@phosphor-icons/react';
 import voeLogo from '../assets/logo-voe-alto.svg';
 import './Sidebar.css'
+import { NavLink } from 'react-router-dom';
+import { GithubLogo } from '@phosphor-icons/react/dist/ssr/GithubLogo';
+import { InstagramLogo } from '@phosphor-icons/react/dist/ssr/InstagramLogo';
 
 export function Sidebar() {
   return (
@@ -9,39 +12,39 @@ export function Sidebar() {
 
       <nav className='main-navagation'>
 
-        <a className='active' href='/'>
+        <NavLink to='/'>
           <House weight='fill' />
           Home
-        </a>
+        </NavLink>
 
-        <a href='/contato'>
+        <NavLink to=''>
           <Hash />
           Explore
-        </a>
+        </NavLink>
 
-        <a href=''>
-          <Bell />
-          Notifications</a>
-        <a href=''>
+        <NavLink to='https://www.behance.net/felipenight' target="_blank">
+          <BehanceLogo />
+          My Portfolio</NavLink>
+        <NavLink to='/contato'>
           <Envelope />
-          Messages</a>
-        <a href=''>
-          <BookBookmark />
-          Bookmarks</a>
-        <a href=''>
-          <FileText />
-          Lists</a>
-        <a href=''>
+          Contato</NavLink>
+        <NavLink to='https://github.com/felipeneneu'>
+          <GithubLogo />
+          GitHub</NavLink>
+        <NavLink to='https://www.instagram.com/felipeneneu/'>
+          <InstagramLogo />
+          Meu Perfil</NavLink>
+        <NavLink to='/about'>
           <User />
-          Profile</a>
-        <a href=''>
+          Sobre Mim</NavLink>
+        <NavLink to=''>
           <DotsThreeCircle />
-          More</a>
+          More</NavLink>
 
       </nav>
 
       <button className='new-tweet' type='button'>
-        Tweet
+        My Portfolio
       </button>
 
     </aside>
