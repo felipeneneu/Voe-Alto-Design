@@ -7,7 +7,7 @@ import { Default } from "./layout/Default";
 
 export const router = createBrowserRouter([
   {
-    path: '/Voe-Alto-Design',
+    path: '/',
     element: <Default />,
     children: [
       {
