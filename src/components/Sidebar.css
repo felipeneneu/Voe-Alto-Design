@@ -7,9 +7,12 @@
 }
 
 .sidebar .logo {
-  width: 264px;
-  height: 47px;
+  width: 213.46px;
+    height: 95.06px;
+  }
 
+.sidebar .logo-cel {
+  display: none;
 }
 
 .sidebar .new-tweet {
@@ -62,4 +65,28 @@
 .main-navagation a:hover {
   opacity: .6;
   transform: scale(110%);
+}
+@media (max-width: 780px) {
+  .sidebar {
+    padding: 1.5rem 0.75rem;
+    align-items: center;
+  }
+
+  .main-navagation a span {
+    display: none;
+  }
+
+  .sidebar .new-tweet {
+    display: none;
+  }
+
+  .sidebar .logo {
+    display: none;
+  }
+
+  .sidebar .logo-cel {
+    display: block;
+    width: 73px;
+    height: auto;
+  }
 }

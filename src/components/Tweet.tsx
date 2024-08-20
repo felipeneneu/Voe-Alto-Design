@@ -13,7 +13,7 @@ export function Tweet() {
           <strong>Felipe Neneu</strong>
           <span>@Cto</span>
         </div>
-        <h2 className='typing-animation'>Potencialize Sua Campanha</h2>
+        <h2>Potencialize Sua Campanha</h2>
         <h3>com Materiais Políticos Digitais!</h3>
         <br />
 

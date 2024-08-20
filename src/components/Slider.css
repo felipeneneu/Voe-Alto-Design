@@ -211,3 +211,9 @@
   right: 100px;
   z-index: 999;
 }
+@media (max-width: 780px) {
+  .slide-container {
+    display: none;
+
+  }
+}
