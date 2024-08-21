@@ -1,6 +1,6 @@
 import { Header } from "../components/Header";
 import { Tweet } from "../components/Tweet";
-import { TweetTwo } from "../components/TweetTwo";
+
 import avatarempresa from '../assets/Ativo 2.png'
 import './Timeline.css'
 
