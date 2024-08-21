@@ -24,7 +24,6 @@ export function Timeline() {
       <div className="separation" />
 
       <Tweet />
-      <TweetTwo />
 
     </main>
   )

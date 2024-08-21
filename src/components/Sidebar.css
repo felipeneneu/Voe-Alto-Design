@@ -68,7 +68,7 @@
 }
 @media (max-width: 780px) {
   .sidebar {
-    padding: 1.5rem 0.75rem;
+    padding: 1.25rem 0.75rem;
     align-items: center;
   }
 
@@ -86,7 +86,11 @@
 
   .sidebar .logo-cel {
     display: block;
-    width: 73px;
+    width: 60px;
     height: auto;
   }
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                .main-navagation a svg {
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  width: 1.4rem;
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  height: 1.4rem;
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                }
 }
