@@ -91,6 +91,7 @@
   }
 
   .tweet {
+    max-width: 100vh;
     padding: 0;
     display: grid;
     grid-template-columns: 3rem 1fr;
@@ -107,5 +108,17 @@
 
 .tweet .nosite .dono {
   border-radius: 10%;
+}
+.tweet .post {
+  width: 80%;
+  height: 100%;
+  border: none;
+  border-radius: 0;
+}
+
+.tweet img {
+  width: 1rem;
+  height: 1rem;
+  border-radius: 100%;
 }
 }

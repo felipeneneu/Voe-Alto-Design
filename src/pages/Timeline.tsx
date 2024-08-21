@@ -1,6 +1,7 @@
 import { Header } from "../components/Header";
 import { Tweet } from "../components/Tweet";
 import { TweetTwo } from "../components/TweetTwo";
+import avatarempresa from '../assets/Ativo 2.png'
 import './Timeline.css'
 
 export function Timeline() {
@@ -13,7 +14,7 @@ export function Timeline() {
 
       <form className='new-tweet-form'>
         <label htmlFor="tweet">
-          <img src="https://openseauserdata.com/files/4c7b1857e28506d0097052584355f4f3.png" alt="" />
+          <img src={avatarempresa} alt="" />
           <textarea id="tweet" placeholder='Whats happening?'></textarea>
         </label>
 

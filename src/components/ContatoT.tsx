@@ -1,13 +1,14 @@
 import { ArrowClockwise, ChatCircle, Heart } from '@phosphor-icons/react'
 import './Tweet.css'
 import imagem3 from '../assets/Post-do-Site-3.png'
+import avatarempresa from '../assets/Ativo 2.png'
 
 
 
 export function ContatoT() {
   return (
     <div className='tweet'>
-      <img src="https://openseauserdata.com/files/4c7b1857e28506d0097052584355f4f3.png" alt="" />
+      <img src={avatarempresa} alt="" />
 
       <div className='tweet-content'>
         <div className='tweet-content-header'>
