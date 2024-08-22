@@ -82,52 +82,7 @@
 .tweet .nosite {
   display: none;
 }
-@media (max-width: 350px) {
-  .tweet .tweet-content {
-    font-size: small;
-    height: 100%;
-    width: 150px;
-  }
 
-  .tweet .tweet-content .tweet-content-footer {
-    display: flex;
-    align-items: center;
-    gap: 1rem;
-    margin-top: 0.75rem;
-  }
-
-  .tweet .tweet-content .tweet-content-footer button {
-    display: flex;
-    align-items: center;
-    gap: 0.5rem;
-    background: transparent;
-    border: 0;
-    font-size: 0.875rem;
-    color: #89a2b8;
-    transition: .3s ease;
-  }
-
-  .tweet .tweet-content .tweet-content-footer button svg {
-    width: 1.25rem;
-    height: 1.25rem;
-  }
-
-  .tweet .tweet-content .tweet-content-header {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    padding-right: 4rem;
-    padding-top: 0.45rem;
-    gap: 0.5rem;
-    margin-bottom: 1.25rem;
-  }
-
-  .tweet .tweet-content .tweet-content-header span {
-    font-size: 0.875rem;
-    color: #89a2b8;
-    padding-left: 1.35rem;
-  }
-}
 
 /* media */
 @media (max-width: 780px) {
@@ -204,4 +159,55 @@
   font-size: 0.675rem;
   color: #89a2b8;
 }
+}
+@media (max-width: 400px) {
+  .tweet {
+    width: 200px;
+    box-sizing: content-box;
+  }
+
+  .tweet .tweet-content {
+    font-size: small;
+    height: 100%;
+    width: 190px;
+  }
+
+  .tweet .tweet-content .tweet-content-footer {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 0.75rem;
+  }
+
+  .tweet .tweet-content .tweet-content-footer button {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    background: transparent;
+    border: 0;
+    font-size: 0.875rem;
+    color: #89a2b8;
+    transition: .3s ease;
+  }
+
+  .tweet .tweet-content .tweet-content-footer button svg {
+    width: 1.25rem;
+    height: 1.25rem;
+  }
+
+  .tweet .tweet-content .tweet-content-header {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding-right: 4rem;
+    padding-top: 0.45rem;
+    gap: 0.5rem;
+    margin-bottom: 1.25rem;
+  }
+
+  .tweet .tweet-content .tweet-content-header span {
+    font-size: 0.875rem;
+    color: #89a2b8;
+    padding-left: 1.35rem;
+  }
 }
