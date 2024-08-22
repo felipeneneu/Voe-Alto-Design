@@ -65,6 +65,13 @@
   .new-tweet-form {
     max-width: 80%;
   }
+    .separation {
+      background: #f7f9fa;
+      border-top: 1px solid #ebeef0;
+      border-bottom: 1px solid #ebeef0;
+      height: 0.75rem;
+      width: 200px;
+    }
 
   .new-tweet-form label textarea::placeholder {
     color: #5b7083;
