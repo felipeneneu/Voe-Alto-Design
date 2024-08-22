@@ -16,13 +16,13 @@
 @media (max-width: 780px) {
   .timeline-header {
     padding: 1.0rem 1.0rem;
-    max-width: 80%;
+    
   }
 }
-@media (max-width: 350px) {
+@media (max-width: 450px) {
   .timeline-header {
     padding: 1.5rem 0.75rem;
-    font-size: 0.85rem;
+    font-size: small;
   }
 
   .timeline-header svg {
