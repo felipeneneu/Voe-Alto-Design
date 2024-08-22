@@ -19,3 +19,15 @@
     max-width: 80%;
   }
 }
+@media (max-width: 350px) {
+  .timeline-header {
+    padding: 1.5rem 0.75rem;
+    font-size: 0.85rem;
+  }
+
+  .timeline-header svg {
+    width: 0.9rem;
+    height: 0.9rem;
+    color: var(--twitter-blue);
+  }
+}

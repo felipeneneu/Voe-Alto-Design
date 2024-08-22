@@ -56,8 +56,31 @@
   border-bottom: 1px solid #ebeef0;
   height: 0.75rem;
 }
-@media (max-width: 780px) {
+ @media (max-width: 780px) {
+   .new-tweet-form {
+     max-width: 90%;
+   }
+}
+@media (max-width: 350px) {
   .new-tweet-form {
-    max-width: 90%;
+    max-width: 80%;
+  }
+
+  .new-tweet-form label textarea::placeholder {
+    color: #5b7083;
+    font-size: small;
+  }
+
+  .new-tweet-form button[type=submit] {
+
+    margin-left: auto;
+    background: var(--twitter-blue);
+    border-radius: 999px;
+    padding: 0.75rem 1.5rem;
+    color: white;
+    font-size: small;
+    font-weight: 600;
+    border: 0;
+    transition: .3s ease;
   }
 }
