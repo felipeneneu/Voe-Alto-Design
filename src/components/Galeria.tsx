@@ -1,14 +1,7 @@
 import './Tweet.css'
 import './Galeria.css'
 import avatarempresa from '../assets/Ativo 2.png'
-
-const imggallery = {
-  img1: '../assets/1.webp',
-  img2: '../assets/2.webp',
-  img3: '../assets/5.webp',
-  img4: '../assets/3.webp',
-  img5: '../assets/4.webp'
-}
+import Image from './Image'
 
 export function Galeria() {
   return (
@@ -20,17 +13,19 @@ export function Galeria() {
           <strong>Felipe Neneu</strong>
           <span>@Dev</span>
         </div>
-        <h2>Explore</h2>
+        <br />
+        <h2>#Explore</h2>
         <p>🌟 Confira meus trabalhos! 🌟<br />
           🎨💡 Criações únicas e criativas para dar vida às suas ideias! <br />
           😊✨ Estou ansioso para saber o que você achou!</p>
         <br />
         <div className='galeriaimg'>
-          <img src={imggallery.img1} alt="" />
-          <img src={imggallery.img5} alt="" />
-          <img src={imggallery.img2} alt="" />
-          <img src={imggallery.img4} alt="" />
-          <img src={imggallery.img3} alt="" />
+          <img src={Image.img5} alt="" />
+          <img src={Image.img3} alt="" />
+          <img src={Image.img1} alt="" />
+          <img src={Image.img2} alt="" />
+          <img src={Image.img4} alt="" />
+
 
 
         </div>
@@ -41,11 +36,11 @@ export function Galeria() {
         <br />
         <div className='motions'>
           <video controls autoPlay loop muted>
-            <source src="../assets/Motion Eleição_3.mp4" type="video/mp4" />
+            <source src={Image.video1} type="video/mp4" />
             Your browser does not support the video tag.
           </video>
           <video controls autoPlay loop muted>
-            <source src="../assets/LogoStorys.mp4" type="video/mp4" />
+            <source src={Image.video2} type="video/mp4" />
             Your browser does not support the video tag.
           </video>
         </div>

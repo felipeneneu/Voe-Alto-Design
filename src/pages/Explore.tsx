@@ -6,7 +6,7 @@ export function Explore() {
   return (
     <main className='contato'>
 
-      <Header title='Explore' />
+      <Header title='#Explore' />
 
       <div className="separation" />
 
