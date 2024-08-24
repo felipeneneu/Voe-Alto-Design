@@ -1,0 +1,27 @@
+.galeriaimg{
+display: grid;
+grid-template-columns: 1fr 1fr;
+gap: 1rem;
+}
+.galeriaimg img{
+  width: 100%;
+  height: fit-content;
+  border-radius: 0%;
+}
+.motions video{
+  display: block;
+  width: 300px;
+  gap: 1rem;
+  padding-bottom: 1rem;
+}
+
+@media (max-width: 780px) {
+  .galeriaimg{
+    display: flex;
+    flex-direction: column;
+    width: 190px;
+  }
+  .motions video{
+    width: 190px;
+  }
+}

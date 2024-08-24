@@ -3,6 +3,7 @@ import { Timeline } from "./pages/Timeline";
 import { Contatos } from "./pages/Contatos";
 import { SobreMim } from "./pages/SobreMim";
 import { Default } from "./layout/Default";
+import { Explore } from "./pages/Explore";
 
 
 export const router = createBrowserRouter([
@@ -19,6 +20,9 @@ export const router = createBrowserRouter([
       }, {
         path: '/about',
         element: <SobreMim />
+      }, {
+        path: '/explore',
+        element: <Explore />
       },
     ]
   }

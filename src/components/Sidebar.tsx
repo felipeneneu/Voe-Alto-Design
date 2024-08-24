@@ -19,7 +19,7 @@ export function Sidebar() {
           <span>Home</span>
         </NavLink>
 
-        <NavLink to=''>
+        <NavLink to='/explore'>
           <Hash />
           <span>Explore</span>
         </NavLink>

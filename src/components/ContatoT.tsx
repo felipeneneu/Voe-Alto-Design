@@ -22,7 +22,7 @@ export function ContatoT() {
           Estamos aqui para ajudar! 🙌 Entre em contato conosco enviando uma mensagem direta 📩. Vamos conversar e encontrar a melhor solução para você! 💬😊
         </h3>
         <br />
-        <a href="http://" target="_blank" rel="noopener noreferrer">
+        <a href="https://web.whatsapp.com/send/?phone=5514991293993&text=Ol%C3%A1%2C+estou+interessado+em+seus+servi%C3%A7os%21&type=phone_number&app_absent=0" target="_blank" rel="noopener noreferrer">
           <img className='post' src={imagem3} alt="" /></a>
 
         <div className='tweet-content-footer'>
