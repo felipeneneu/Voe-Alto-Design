@@ -1,7 +1,7 @@
 import { BehanceLogo, Envelope, Hash, House, User } from '@phosphor-icons/react';
+import './Sidebar.css'
 import voeLogo from '../assets/01.svg';
 import logomedia from '../assets/logo-aguia.svg'
-import './Sidebar.css'
 import { NavLink } from 'react-router-dom';
 import { GithubLogo } from '@phosphor-icons/react/dist/ssr/GithubLogo';
 import { InstagramLogo } from '@phosphor-icons/react/dist/ssr/InstagramLogo';

@@ -93,21 +93,21 @@
       font-size: small;
       height: 100%;
     }
-                                                                                                                                .content {
-                                                                                                                                  width: 280px;
-                                                                                                                                  flex-basis: auto;
-                                                                                                                                  flex-direction: column;
-                                                                                                                                  flex-shrink: 0;
-                                                                                                                                }
+.content {
+width: 280px;
+flex-basis: auto;
+flex-direction: column;
+flex-shrink: 0;
+}
   
-    .tweet .tweet-content h3 {
-      font-size: small;
-    }
-  .tweet .tweet-content h2 {
-    color: var(--twitter-blue);
-    font-weight: 900;
-    font-size: 1.1rem;
-    height: 100%;
+.tweet .tweet-content h3 {
+font-size: small;
+}
+.tweet .tweet-content h2 {
+color: var(--twitter-blue);
+font-weight: 900;
+font-size: 1.1rem;
+height: 100%;
   }
 
   .tweet {
@@ -176,9 +176,9 @@
       height: 2.5rem;
       border-radius: 100%;
   }
-                .tweet .tweet-content .tweet-content-footer button svg {
-                  width: 0.8rem;
-                  height: 0.8rem;
+.tweet .tweet-content .tweet-content-footer button svg {
+ width: 0.8rem;
+height: 0.8rem;
   }
   
   .tweet .tweet-content .tweet-content-footer button {
@@ -191,4 +191,5 @@
     color: #89a2b8;
     transition: .3s ease;
   
+}
 }
