@@ -27,16 +27,16 @@ export function Sidebar() {
         <NavLink to='https://www.behance.net/felipenight' target="_blank">
           <BehanceLogo />
           <span>
-            My Portfolio</span>
+            Meu Portfolio</span>
         </NavLink>
         <NavLink to='/contato'>
           <Envelope />
           <span>Contato</span>
         </NavLink>
-        <NavLink to='https://github.com/felipeneneu'>
+        <NavLink to='https://github.com/felipeneneu' target="_blank">
           <GithubLogo />
           <span> GitHub</span></NavLink>
-        <NavLink to='https://www.instagram.com/felipeneneu/'>
+        <NavLink to='https://www.instagram.com/felipeneneu/' target="_blank">
           <InstagramLogo />
           <span> Meu Perfil</span></NavLink>
         <NavLink to='/about'>
