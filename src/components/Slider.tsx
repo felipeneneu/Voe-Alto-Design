@@ -12,20 +12,22 @@ export function Slider() {
           <div className="clash-card__image clash-card__image--barbarian">
             <img className='avatar-um' src={Avatar} alt="barbarian" />
           </div>
-          <div className="clash-card__level clash-card__level--barbarian">Cto</div>
+          <div className="clash-card__level clash-card__level--barbarian">Dev, Designer & Social Media</div>
           <div className="clash-card__unit-name">Felipe Neneu</div>
           <div className="clash-card__unit-description">
-            Sou Designer desde os 12 Anos de idade, começou por hobby, motivado a fazer design de sites de animes, aprendi html e css nessa epoca, trabalho com Photoshop e Illustrator para fazer Identidade Visual, flayers, posts para instagram, reels motion design
+            Desenvolvedor, Designer e Social Media com 2+ anos de experiência. Especialista em marketing digital,
+            cursando Análise e Desenvolvimento de Sistemas.
+            Experiência em Photoshop, CorelDRAW e Illustrator. Foco em soluções inovadoras e criativas.
           </div>
 
           <div className="clash-card__unit-stats clash-card__unit-stats--barbarian clearfix">
             <div className="one-third">
-              <div className="stat">100<sup>S</sup></div>
-              <div className="stat-value">Design</div>
+              <div className="stat">DEV<sup></sup></div>
+              <div className="stat-value">Full-Stack</div>
             </div>
 
             <div className="one-third">
-              <div className="stat">16</div>
+              <div className="stat">DESIGN </div>
               <div className="stat-value">Speed</div>
             </div>
 
@@ -41,14 +43,19 @@ export function Slider() {
       <div>
         <h2>SOBRE MIM</h2>
         <br />
-        <p className='texto-name'>Sou Desenvolvedor, Designer e Social Media. Freelancer com mais de 2 anos de experiência.
+        <p className='texto-name'>Sou Desenvolvedor, Designer e Social Media,
+          com mais de 2 anos de experiência no mercado como freelancer.
           <br /> <br />
-          Developer e Especialista em marketing digital, Cursa Analise e desenvolvimento de sistemas.
-          Trabalha com Design Gráfico. Hoje é estou estudando programação
-          para ser o melhor marketeiro digital.
+
+          Especialista em marketing digital e cursando Análise e
+          Desenvolvimento de Sistemas, trago uma visão estratégica e
+          técnica para cada projeto. Com conhecimentos em programação,
+          aliado a uma sólida base em design gráfico, domino ferramentas como Photoshop,
+          CorelDRAW e Illustrator. Estou em constante aprendizado para oferecer soluções
+          inovadoras e criativas que atendam às necessidades dos meus clientes.
         </p><br /><br />
         <button className='new-tweet' type='button'>
-          My Portfolio
+          Meu Portfolio
         </button>
       </div>
 

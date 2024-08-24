@@ -1,18 +1,20 @@
 import { ArrowClockwise, ChatCircle, Heart } from '@phosphor-icons/react'
 import './Tweet.css'
 import imagem1 from '../assets/01.png'
+import art1 from '../assets/art3.png'
+import art2 from '../assets/art4.png'
 import avatarempresa from '../assets/Ativo 2.png'
 
 
 export function Tweet() {
   return (
-    <a href='#' className='tweet'>
+    <div className='tweet'>
       <img src={avatarempresa} alt="" />
 
       <div className='tweet-content'>
         <div className='tweet-content-header'>
           <strong>Felipe Neneu</strong>
-          <span>@Designer/Developer</span>
+          <span>@Dev</span>
         </div>
         <h2>Potencialize Sua Campanha</h2>
         <h3>com Materiais Políticos Digitais!</h3>
@@ -35,24 +37,26 @@ export function Tweet() {
         <li>Entrega rápida e suporte dedicado durante todo o processo.</li>
         <li>Materiais que se destacam e ajudam a conquistar votos.</li>
         <br />
+        <img className='post' src={art1} alt="" />
         <img className='post' src={imagem1} alt="" />
+        <img className='post' src={art2} alt="" />
 
         <div className='tweet-content-footer'>
           <button type='button'>
             <ChatCircle />
-            20
+            20k
           </button>
           <button type='button'>
             <ArrowClockwise />
-            20
+            20k
           </button>
           <button type='button'>
             <Heart />
-            20
+            20k
           </button>
         </div>
       </div>
-    </a>
+    </div>
 
   )
 }

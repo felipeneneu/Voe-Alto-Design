@@ -27,12 +27,9 @@ export function Sidebar() {
         <NavLink to='https://www.behance.net/felipenight' target="_blank">
           <BehanceLogo />
           <span>
-            Meu Portfolio</span>
+            Behance</span>
         </NavLink>
-        <NavLink to='/contato'>
-          <Envelope />
-          <span>Contato</span>
-        </NavLink>
+
         <NavLink to='https://github.com/felipeneneu' target="_blank">
           <GithubLogo />
           <span> GitHub</span></NavLink>
@@ -42,11 +39,16 @@ export function Sidebar() {
         <NavLink to='/about'>
           <User />
           <span> Sobre Mim</span></NavLink>
+        <NavLink to='/contato'>
+          <Envelope />
+          <span>Contato</span>
+        </NavLink>
 
       </nav>
 
-      <button className='new-tweet' type='button'>
-        My Portfolio
+      <button className='new-tweet'>
+        <a href="/" target="_blank">
+          Meu Portfolio</a>
       </button>
 
     </aside>

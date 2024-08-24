@@ -16,7 +16,7 @@
 }
 
 .sidebar .new-tweet {
-  background: var(--twitter-blue);
+  background: radial-gradient(circle, rgba(29,161,242,1) 0%, rgba(0,32,191,1) 100%);
   border-radius: 9999px;
   padding: 1rem;
   display: flex;
@@ -27,10 +27,15 @@
   font-weight: 900;
   border: 0;
   transition: .3s ease;
+  
+}
+.sidebar .new-tweet a {
+text-decoration: none;
+  
 }
 
 .sidebar .new-tweet:hover {
-  opacity: .6;
+  background: radial-gradient(circle, rgb(3, 120, 192) 0%, rgb(0, 18, 110) 100%);
   transform: scale(110%);
 
 }

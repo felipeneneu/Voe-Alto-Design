@@ -11,13 +11,19 @@ export function About() {
       <div className='tweet-content'>
         <div className='tweet-content-header'>
           <strong>Felipe Neneu</strong>
-          <span>@Cto</span>
+          <span>@Dev</span>
         </div>
         <div className='nosite'>
           <img className='dono' src={dono} alt="" />
           <h2>Quem sou eu?</h2>
-          <p>🎨 Sou designer desde os 12 anos, quando transformei meu hobby em paixão ao criar sites de animes e aprender HTML e CSS. Com o tempo, desenvolvi minhas habilidades em softwares como Photoshop e Illustrator,
-            especializando-me em Identidade Visual, criação de flyers, posts para Instagram 📱 e motion design para reels 🎥.</p>
+          <p>🎨 Sou Desenvolvedor, Designer e Social Media,
+            com mais de 2 anos de experiência no mercado como freelancer.
+            Especialista em marketing digital e cursando Análise e
+            Desenvolvimento de Sistemas, trago uma visão estratégica e
+            técnica para cada projeto. Com conhecimentos em programação,
+            aliado a uma sólida base em design gráfico, domino ferramentas como Photoshop,
+            CorelDRAW e Illustrator. Estou em constante aprendizado para oferecer soluções
+            inovadoras e criativas que atendam às necessidades dos meus clientes.</p>
         </div>
         <Slider />
       </div>

@@ -4,7 +4,7 @@ import { Galeria } from "../components/Galeria";
 
 export function Explore() {
   return (
-    <main className='contato'>
+    <main className='explore'>
 
       <Header title='#Explore' />
 
