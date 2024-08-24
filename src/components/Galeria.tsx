@@ -3,11 +3,11 @@ import './Galeria.css'
 import avatarempresa from '../assets/Ativo 2.png'
 
 const imggallery = {
-  img1: '../public/1.webp',
-  img2: '../public/2.webp',
-  img3: '../public/5.webp',
-  img4: '../public/3.webp',
-  img5: '../public/4.webp'
+  img1: '../assets/1.webp',
+  img2: '../assets/2.webp',
+  img3: '../assets/5.webp',
+  img4: '../assets/3.webp',
+  img5: '../assets/4.webp'
 }
 
 export function Galeria() {
@@ -41,11 +41,11 @@ export function Galeria() {
         <br />
         <div className='motions'>
           <video controls autoPlay loop muted>
-            <source src="../public/Motion Eleição_3.mp4" type="video/mp4" />
+            <source src="../assets/Motion Eleição_3.mp4" type="video/mp4" />
             Your browser does not support the video tag.
           </video>
           <video controls autoPlay loop muted>
-            <source src="../public/LogoStorys.mp4" type="video/mp4" />
+            <source src="../assets/LogoStorys.mp4" type="video/mp4" />
             Your browser does not support the video tag.
           </video>
         </div>
