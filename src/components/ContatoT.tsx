@@ -19,10 +19,13 @@ export function ContatoT() {
         <h2>Tem alguma pergunta ou precisa de ajuda com o seu projeto? 🤔</h2>
         <br />
         <h3>
-          Estamos aqui para ajudar! 🙌 Entre em contato conosco enviando uma mensagem direta 📩. Vamos conversar e encontrar a melhor solução para você! 💬😊
+          Estamos aqui para ajudar! 🙌 <br />
+          Entre em contato conosco enviando uma mensagem direta 📩. <br />
+          Vamos conversar e encontrar a melhor solução para você! 💬😊
         </h3>
         <br />
-        <a href="https://web.whatsapp.com/send/?phone=5514991293993&text=Ol%C3%A1%2C+estou+interessado+em+seus+servi%C3%A7os%21&type=phone_number&app_absent=0" target="_blank" rel="noopener noreferrer">
+        <p>Clique no Banner abaixo e entre em contato!</p>
+        <a href="https://wa.me/5514991293993?text=Ol%C3%A1%2C+estou+interessado+em+seus+servi%C3%A7os" target="_blank" rel="noopener noreferrer">
           <img className='post' src={imagem3} alt="" /></a>
 
         <div className='tweet-content-footer'>
