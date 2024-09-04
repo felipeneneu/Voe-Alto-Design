@@ -1,10 +1,9 @@
 import { ArrowClockwise, ChatCircle, Heart } from '@phosphor-icons/react'
 import './Tweet.css'
 import './Galeria.css'
-import imagem1 from '../assets/01.png'
+import { NavLink } from 'react-router-dom';
 import art1 from '../assets/art3.png'
-import art2 from '../assets/art4.png'
-import video2 from '../assets/motioneleiçao.mp4'
+
 import avatarempresa from '../assets/Ativo 2.png'
 
 
@@ -18,7 +17,7 @@ export function Tweet() {
           <strong>Felipe Neneu</strong>
           <span>@Dev</span>
         </div>
-        <h2>Potencialize Sua Campanha</h2>
+        <h1>Potencialize Sua Campanha</h1>
         <h3>com Materiais Políticos Digitais!</h3>
         <br />
 
@@ -39,15 +38,7 @@ export function Tweet() {
         <li>Entrega rápida e suporte dedicado durante todo o processo.</li>
         <li>Materiais que se destacam e ajudam a conquistar votos.</li>
         <br />
-        <img className='post' src={art1} alt="" />
-        <img className='post' src={imagem1} alt="" />
-        <div className='motions'>
-          <video controls autoPlay loop muted>
-            <source src={video2} type="video/mp4" />
-            Your browser does not support the video tag.
-          </video>
-        </div>
-        <img className='post' src={art2} alt="" />
+        <NavLink to='/about'><img className='post' src={art1} alt="" /></NavLink>
 
         <div className='tweet-content-footer'>
           <button type='button'>

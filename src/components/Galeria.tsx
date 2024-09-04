@@ -14,8 +14,8 @@ export function Galeria() {
           <span>@Dev</span>
         </div>
         <br />
-        <h2>#Explore</h2>
-        <p>🌟 Confira meus trabalhos! 🌟<br />
+        <h1>🌟 Confira meus trabalhos! 🌟</h1>
+        <p><br />
           🎨💡 Criações únicas e criativas para dar vida às suas ideias! <br />
           😊✨ Estou ansioso para saber o que você achou!</p>
         <br />
@@ -35,7 +35,7 @@ export function Galeria() {
           ✨ Animações que dão vida às ideias e elevam qualquer projeto.</p>
         <br />
         <div className='motions'>
-          <video controls autoPlay loop muted>
+          <video controls>
             <source src={Image.video1} type="video/mp4" />
             Your browser does not support the video tag.
           </video>

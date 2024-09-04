@@ -2,8 +2,20 @@ import './Tweet.css'
 import { Slider } from "./Slider"
 import avatarempresa from '../assets/Ativo 2.png'
 import dono from '../assets/Felipe-Avatar.jpg'
+import { useEffect } from 'react';
+import { useLocation } from 'react-router-dom';
+
+function UsarTitulo(titulo: string): void {
+  const location = useLocation();
+  useEffect(() => {
+    if (location.pathname === '/about') {
+      document.title = titulo;
+    }
+  }, [location, titulo]);
+}
 
 export function About() {
+  UsarTitulo('Contato');
   return (
     <div className='tweet'>
       <img src={avatarempresa} alt="" />

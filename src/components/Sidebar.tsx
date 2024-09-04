@@ -47,8 +47,8 @@ export function Sidebar() {
       </nav>
 
       <button className='new-tweet'>
-        <a href="/" target="_blank">
-          Meu Portfolio</a>
+        <NavLink to='https://www.instagram.com/felipeneneu/' target="_blank">
+          Meu Portfolio</NavLink>
       </button>
 
     </aside>

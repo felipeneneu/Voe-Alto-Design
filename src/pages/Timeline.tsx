@@ -2,8 +2,19 @@ import { Header } from "../components/Header";
 import { Tweet } from "../components/Tweet";
 // import avatarempresa from '../assets/Ativo 2.png'
 import './Timeline.css'
+import { useEffect } from 'react';
+import { useLocation } from 'react-router-dom';
 
+function UsarTitulo(titulo: string): void {
+  const location = useLocation();
+  useEffect(() => {
+    if (location.pathname === '/') {
+      document.title = titulo;
+    }
+  }, [location, titulo]);
+}
 export function Timeline() {
+  UsarTitulo('Voe Alto Design');
   return (
     <main className='timeline'>
 
